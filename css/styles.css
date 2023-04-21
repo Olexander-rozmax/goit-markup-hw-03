@@ -1,0 +1,178 @@
+
+/* basic styles -------------------------------------------------*/
+
+body { 
+font-family:"Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+    
+}
+
+.competition{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.main-description{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.paragraf {
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+letter-spacing: 0.02em
+}
+
+.hero-text{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+color: #2E2F42;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav {
+    text-decoration: none;
+}
+
+/* -navigation ---------------------------------------------*/
+
+
+.logo{
+font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+color: #4D5AE5;
+text-decoration: none;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+span {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+color: #2E2F42;
+text-decoration: none;
+}
+
+.nav {
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #2E2F42;
+letter-spacing: 0.02em 
+}
+.nav:hover,
+.nav:focus{
+color: #404bbf;
+}
+
+.list-mail{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+text-decoration: none;
+letter-spacing: 0.02em     
+}
+
+.list-mail:hover,
+.list-mail:focus {
+color: #404bbf;
+}
+
+.list-phone{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+text-decoration: none;
+letter-spacing: 0.02em     
+}
+
+.list-phone:hover,
+.list-mail:focus {
+color: #404bbf;
+}
+/*hero-section ------------------------------------------------ */
+.hero-text{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+background-color: #2E2F42;
+}
+
+.order-button {
+background: #4D5AE5;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.footer-text{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #F4F4FD;
+background-color: #2E2F42;;
+}
+
+/* portfolio-buttons---------------------------------------------- */
+.modal-button {
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #4D5AE5;
+background-color: #F4F4FD;
+letter-spacing: 0.04em
+}
+
+.modal-button:hover,
+.modal-button:focus {
+background-color:#404BBF;
+color:#FFFFFF;
+cursor: pointer;
+}
