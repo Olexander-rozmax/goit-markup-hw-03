@@ -6,11 +6,17 @@ body {
     background-color: #FFFFFF;
 
 }
-.container{
+.container{ 
+    outline: 1px solid red;
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
 }
+.hero-containetr {
+    outline: 1px solid red;
+
+}
+
 
 .competition {
     font-family: 'Roboto';
@@ -49,7 +55,9 @@ body {
     font-size: 36px;
     line-height: 1.11;
     color: #2E2F42;
+  
 }
+
 /* browser skip- begin------------------ */
 h1,
 h2,
@@ -82,12 +90,36 @@ button{
 
 .nav {
     text-decoration: none;
+   
+}
+.nav-list-items:not(:last-child){
+    margin-right: 40px;
 }
 
+
+
 /* -navigation ---------------------------------------------*/
-.container {}
+.page-nav{
+    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    
+}
+.list-nav{
+    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    
+ 
+}
+.page-header-container{
+    display: flex;
+    
+ 
+}
 
 .logo {
+    outline: 1px solid red;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -97,7 +129,9 @@ button{
     text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 
+    
 }
 
 span {
@@ -181,6 +215,7 @@ span {
 }
 
 .footer-text {
+    
     font-family: 'Roboto' sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -189,6 +224,10 @@ span {
     color: #F4F4FD;
     background-color: #2E2F42;
     ;
+}
+.footer-container{
+    outline: 1px solid red;
+   
 }
 
 /* portfolio-buttons---------------------------------------------- */
