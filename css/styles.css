@@ -13,7 +13,8 @@ body {
     margin-right: auto;
 }
 .hero-containetr {
-    outline: 1px solid red;
+
+    outline: 2px solid red;
 
 }
 
@@ -210,6 +211,11 @@ span {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 265px;
+    padding-left: 472px;
+    padding-right: 472px;
+    text-align:inherit
 }
 
 .order-button {
@@ -221,6 +227,11 @@ span {
     line-height: 1.5;
     color: #FFFFFF;
     cursor: pointer;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+
 }
 
 .footer-text {
