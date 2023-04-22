@@ -98,6 +98,7 @@ button{
 
 
 
+
 /* -navigation ---------------------------------------------*/
 .page-nav{
     outline: 1px solid red;
@@ -114,6 +115,8 @@ button{
 }
 .page-header-container{
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
  
 }
@@ -153,6 +156,9 @@ span {
     color: #2E2F42;
     letter-spacing: 0.02em
 }
+.address-list{
+    margin-left:auto ;
+}
 
 .nav:hover,
 .nav:focus {
@@ -167,7 +173,8 @@ span {
     line-height: 1.5;
     color: #434455;
     text-decoration: none;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    margin-right: 40px;
 }
 
 .list-mail:hover,
@@ -183,7 +190,9 @@ span {
     line-height: 1.5;
     color: #434455;
     text-decoration: none;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+  
+
 }
 
 .list-phone:hover,
