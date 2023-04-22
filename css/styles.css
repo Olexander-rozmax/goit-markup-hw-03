@@ -86,7 +86,7 @@ button{
 .list {
 
     list-style: none;
-
+outline: 1px solid red;
 }
 
 .nav {
@@ -268,3 +268,13 @@ span {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+/* section2 -FEATURES ------------------------------ */
+.features{
+    display: flex;
+}
+.features-list{
+    margin: 10px;
+}
+
+/* section3 - what are we doing ------------------ */
