@@ -12,7 +12,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    
+
 
 }
 .headefr-clas{
@@ -127,6 +127,7 @@ button {
 
     display: flex;
     align-items: center;
+    gap: 40px;
 
 
 }
