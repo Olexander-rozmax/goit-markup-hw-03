@@ -383,6 +383,9 @@ flex-basis: calc((100% - 48px) / 3);
 .team-par {
     padding-top: 8px;
 }
+.employes{
+    border-radius: 0px 0px 4px 4px;
+}
 
 /* potrfolio card-set ------------------------ */
 .card-set {
