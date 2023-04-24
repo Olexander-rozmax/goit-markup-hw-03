@@ -6,17 +6,14 @@ body {
     background-color: #FFFFFF;
 
 }
-.container{ 
-    outline: 1px solid red;
+
+.container {
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
 }
-.hero-containetr {
 
-    outline: 2px solid red;
-
-}
+.hero-containetr {}
 
 
 .competition {
@@ -56,7 +53,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     color: #2E2F42;
-  
+
 }
 
 /* browser skip- begin------------------ */
@@ -70,61 +67,66 @@ p {
 }
 
 
-ul, ol{
+ul,
+ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
-img{
-    display:block
+
+img {
+    display: block
 }
-button{
+
+button {
     cursor: pointer;
-}   
+}
 
 
 /* browser sip - end--------------------------- */
 .list {
 
     list-style: none;
-outline: 1px solid red;
+
 }
 
 .nav {
     text-decoration: none;
-   
+
 }
-.nav-list-items:not(:last-child){
+
+.nav-list-items:not(:last-child) {
     margin-right: 40px;
 }
 
 
 
-
 /* -navigation ---------------------------------------------*/
-.page-nav{
-    outline: 1px solid red;
+.page-nav {
+
     display: flex;
     align-items: center;
-    
+
 }
-.list-nav{
-    outline: 1px solid red;
+
+.list-nav {
+
     display: flex;
     align-items: center;
-    
- 
+
+
 }
-.page-header-container{
+
+.page-header-container {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
-    
- 
+
+
 }
 
 .logo {
-    outline: 1px solid red;
+
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -136,7 +138,7 @@ outline: 1px solid red;
     text-transform: uppercase;
     margin-right: 76px;
 
-    
+
 }
 
 span {
@@ -158,8 +160,9 @@ span {
     color: #2E2F42;
     letter-spacing: 0.02em
 }
-.address-list{
-    margin-left:auto ;
+
+.address-list {
+    margin-left: auto;
 }
 
 .nav:hover,
@@ -193,7 +196,7 @@ span {
     color: #434455;
     text-decoration: none;
     letter-spacing: 0.02em;
-  
+
 
 }
 
@@ -216,7 +219,7 @@ span {
     padding-bottom: 265px;
     padding-left: 472px;
     padding-right: 472px;
-    text-align:inherit
+    text-align: inherit
 }
 
 .order-button {
@@ -236,7 +239,7 @@ span {
 }
 
 .footer-text {
-    
+
     font-family: 'Roboto' sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -246,10 +249,8 @@ span {
     background-color: #2E2F42;
     ;
 }
-.footer-container{
-    outline: 1px solid red;
-   
-}
+
+.footer-container {}
 
 /* portfolio-buttons---------------------------------------------- */
 .modal-button {
@@ -275,27 +276,69 @@ span {
 
 /* section4 - OUR TEAM ------------------ */
 
-.team-section{
+.team-section {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-    
+
 }
-.team-title{
+
+.team-title {
     margin-bottom: 72px;
     text-align: center;
 }
-.team-list{
+
+.team-list {
     display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+    flex-wrap: wrap;
+    gap: 24px;
 
 }
-.team-desc-container{
-    outline: 2px solid red; 
+
+.team-desc-container {
+
     padding: 32px 16px;
     text-align: center;
 }
-.team-par{
-  padding-top: 8px;
+
+.team-par {
+    padding-top: 8px;
+}
+
+/* potrfolio card-set ------------------------ */
+.card-set {
+
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -24px;
+    margin-top: -48px;
+
+
+}
+
+.card-set-items {
+
+    flex-basis: calc (100%/3);
+    margin-left: 24px;
+    margin-top: 48px;
+
+
+}
+
+.card-set-items-desc {
+    padding-top: 32px;
+    padding-left: 15px;
+    border: 1px solid #E7E9FC
+}
+
+.profile-buttons {
+    outline: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 12px 24px;
 }
