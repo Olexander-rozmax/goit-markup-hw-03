@@ -33,6 +33,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .main-description {
@@ -315,10 +316,7 @@ gap: 24px;
 justify-content: center;
 
 }
-.f-par{
-  
-    padding-top: 8px;  
-}
+
 .features-list-items{
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
