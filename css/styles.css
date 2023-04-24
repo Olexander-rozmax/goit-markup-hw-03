@@ -250,13 +250,18 @@ span {
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
-    background-color: #2E2F42;
-    ;
+
+
 }
 
 .footer-container {
+
      outline: 1px solid red;
+     background-color: #2E2F42;
+     height: 312px;
+    
 }
+
 
 /* portfolio-buttons---------------------------------------------- */
 .modal-button {
@@ -282,6 +287,55 @@ span {
 
 
 
+/* -section-2 FEATURES --------------------------------- */
+.fet-section{
+
+margin-top: 147px;
+
+
+
+}
+.features-list{
+display: flex;
+gap: 24px;
+justify-content: center;
+
+}
+.f-par{
+  
+    padding-top: 8px;  
+}
+
+
+
+/* section-3-WHAT ARE WE DOING--------------------------------- */
+
+.do-section{
+   
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.do-title{
+  
+    margin-bottom: 72px;
+    text-align: center;
+}
+.do-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    
+}
+.do-li{
+    
+    padding: 32px 16px;
+    text-align: center;
+  
+}
+
+
 
 /* section4 - OUR TEAM ------------------ */
 
@@ -301,6 +355,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+
 
 }
 
@@ -343,6 +398,7 @@ span {
   
     padding-top: 32px;
     padding-left: 15px;
+    padding-bottom: 32px;
     border: 1px solid #E7E9FC
 }
 
