@@ -101,6 +101,8 @@ button {
 .list {
 
     list-style: none;
+
+
   
 }
 
@@ -334,6 +336,10 @@ justify-content: center;
 
 .features-list-items{
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.features{
+    column-gap: 24px;
+     row-gap: 48px;
 }
 
 
