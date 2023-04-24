@@ -87,11 +87,12 @@ button {
 .list {
 
     list-style: none;
-
+  
 }
 
 .nav {
     text-decoration: none;
+    
 
 }
 
@@ -103,6 +104,7 @@ button {
 
 /* -navigation ---------------------------------------------*/
 .page-nav {
+ 
 
     display: flex;
     align-items: center;
@@ -152,6 +154,7 @@ span {
 }
 
 .nav {
+   
     font-family: 'Roboto' sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -239,6 +242,7 @@ span {
 }
 
 .footer-text {
+   
 
     font-family: 'Roboto' sans-serif;
     font-style: normal;
@@ -250,7 +254,9 @@ span {
     ;
 }
 
-.footer-container {}
+.footer-container {
+     outline: 1px solid red;
+}
 
 /* portfolio-buttons---------------------------------------------- */
 .modal-button {
@@ -261,7 +267,10 @@ span {
     line-height: 1.5;
     color: #4D5AE5;
     background-color: #F4F4FD;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid #e7e9fc
 }
 
 .modal-button:hover,
@@ -321,6 +330,7 @@ span {
 }
 
 .card-set-items {
+ 
 
     flex-basis: calc (100%/3);
     margin-left: 24px;
@@ -330,15 +340,19 @@ span {
 }
 
 .card-set-items-desc {
+  
     padding-top: 32px;
     padding-left: 15px;
     border: 1px solid #E7E9FC
 }
 
 .profile-buttons {
-    outline: 1px solid red;
+    
     display: flex;
     flex-direction: row;
     gap: 24px;
-    padding: 12px 24px;
-}
+    margin-bottom: 72px;
+    margin-top: 96px;
+    justify-content: center;
+
+
