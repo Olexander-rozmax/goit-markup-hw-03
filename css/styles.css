@@ -236,6 +236,7 @@ span {
 }
 
 .order-button {
+    display: block;
     background: #4D5AE5;
     font-family: 'Roboto' sans-serif;
     font-style: normal;
@@ -248,6 +249,10 @@ span {
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 
 }
 
