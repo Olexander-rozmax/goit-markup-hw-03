@@ -307,7 +307,6 @@ span {
     padding-top: 120px;
    padding-bottom: 120px;
 margin-top: 147px;
-flex-basis: calc((100% - 72px) / 4);
 
 }
 .features-list{
@@ -319,6 +318,9 @@ justify-content: center;
 .f-par{
   
     padding-top: 8px;  
+}
+.features-list-items{
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 
