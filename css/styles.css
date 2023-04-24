@@ -345,8 +345,7 @@ justify-content: center;
 }
 .do-li{
     
-    padding: 32px 16px;
-    text-align: center;
+flex-basis: calc((100% - 48px) / 3);
  
   
 }
