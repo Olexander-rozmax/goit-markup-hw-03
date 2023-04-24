@@ -69,6 +69,7 @@ p {
     margin-bottom: 0;
 }
 
+
 ul, ol{
     margin-top: 0;
     margin-bottom: 0;
@@ -269,12 +270,32 @@ span {
     cursor: pointer;
 }
 
-/* section2 -FEATURES ------------------------------ */
-.features{
-    display: flex;
-}
-.features-list{
-    margin: 10px;
-}
 
-/* section3 - what are we doing ------------------ */
+
+
+/* section4 - OUR TEAM ------------------ */
+
+.team-section{
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.team-title{
+    margin-bottom: 72px;
+    text-align: center;
+}
+.team-list{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+}
+.team-desc-container{
+    outline: 2px solid red; 
+    padding: 32px 16px;
+    text-align: center;
+}
+.team-par{
+  padding-top: 8px;
+}
