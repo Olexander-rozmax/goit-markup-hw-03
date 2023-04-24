@@ -162,6 +162,7 @@ button {
     margin-bottom: 16px;
 
 
+
 }
 
 span {
@@ -400,6 +401,11 @@ flex-basis: calc((100% - 48px) / 3);
 }
 
 /* potrfolio card-set ------------------------ */
+
+.portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .card-set {
 
 
@@ -439,4 +445,5 @@ flex-basis: calc((100% - 48px) / 3);
     gap: 24px;
     margin-bottom: 72px;
     margin-top: 96px;
-    justify-content: center;
+    justify-content: center;}
+
