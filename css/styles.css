@@ -312,6 +312,8 @@ span {
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
+    border: 1px solid transparent;
+
 }
 
 
@@ -432,10 +434,10 @@ flex-basis: calc((100% - 48px) / 3);
 
 .card-set-items-desc {
   
-    padding-top: 32px;
-    padding-left: 15px;
-    padding-bottom: 32px;
-    border: 1px solid #E7E9FC
+padding: 32px 16px;
+border: 1px solid #E7E9FC;
+border-top:none;
+
 }
 
 .profile-buttons {
