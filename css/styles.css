@@ -18,7 +18,11 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.hero-containetr {}
+.hero-containetr {
+    outline: 2px solid red;
+    padding-top: 188px;
+     padding-bottom: 188px;
+}
 
 
 .competition {
@@ -58,6 +62,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     color: #2E2F42;
+    max-width: 496px;
 
 }
 
