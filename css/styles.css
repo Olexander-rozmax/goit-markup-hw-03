@@ -406,6 +406,8 @@ flex-basis: calc((100% - 48px) / 3);
 }
 .employes{
     border-radius: 0px 0px 4px 4px;
+    calc((100% - 48px) / 3);
+    
 }
 
 /* potrfolio card-set ------------------------ */
