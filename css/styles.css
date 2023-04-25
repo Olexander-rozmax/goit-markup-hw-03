@@ -105,9 +105,24 @@ button {
 
 .nav {
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 
 }
+.address-list{
+    padding-top: 24px;
+    padding-bottom: 24px;   
+}
+.list-mail{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.list-phone{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 
 .nav-list-items:not(:last-child) {
     margin-right: 40px;
@@ -120,6 +135,8 @@ button {
  
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -128,6 +145,8 @@ button {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 
 }
