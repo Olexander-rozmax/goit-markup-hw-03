@@ -135,8 +135,7 @@ button {
 
 .page-header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 
 
 }
@@ -159,10 +158,18 @@ button {
     margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 
 
 
+
+
+}
+.studio{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 span {
@@ -173,6 +180,7 @@ span {
     line-height: 1.17;
     color: #2E2F42;
     text-decoration: none;
+  
 }
 
 .nav {
