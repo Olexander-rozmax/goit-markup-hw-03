@@ -460,3 +460,8 @@ border-top:none;
     margin-top: 96px;
     justify-content: center;}
 
+    .linc-descr{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+    }
+
