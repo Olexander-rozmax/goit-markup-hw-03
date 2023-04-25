@@ -9,16 +9,10 @@ body {
 
 .container {
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-
-<<<<<<< Updated upstream
+    margin: 0 auto;
+    padding: 0 15px;
 
 
-=======
->>>>>>> Stashed changes
 }
 .headefr-clas{
     border-bottom: 1px solid #e7e9fc;
