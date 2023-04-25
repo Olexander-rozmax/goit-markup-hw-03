@@ -158,7 +158,11 @@ button {
     text-transform: uppercase;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
+margin: 0;
+padding: 0 15px;
+
+
+
 
 
 
