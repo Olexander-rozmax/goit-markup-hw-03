@@ -118,8 +118,7 @@ button {
 
 }
 .address-list{
-    padding-top: 24px;
-    padding-bottom: 24px;   
+ 
 }
 .list-mail{
     padding-top: 24px;
@@ -140,8 +139,7 @@ button {
  
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     
 }
 
